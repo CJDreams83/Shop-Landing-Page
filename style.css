@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url(./img/bg.svg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 20px;
+    color:#333333;
+    font-weight:500
+}
+
+.main-container{
+    width: 1559px;
+    height: 860px;
+    background: linear-gradient(283.07deg, rgba(189,255,234,1) 34%, rgba(188,188,244,0.3927696078431373) 57%);
+    box-shadow: 0px 4px 54px rgba(0,0,0, 0.25);
+    border-radius: 35px;
+    backdrop-filter: 17px;
+    border: 4px solid white;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    min-height: 10vh;
+    align-items: center;
+    margin: 0 2rem;
+}
+.logo{
+    font-weight: 600;
+    font-size: 20px;
+}
+.navigation .nav-items{
+    display: flex;
+    align-items: center;
+}
+.nav-items li{
+    margin:0 1.75rem;
+
+}
+
+.nav-items a{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: inherit;
+    color:inherit
+
+}
+.section-main{
+    display:flex;
+    margin: 6rem 5rem;       
+}
+.section-main .left-content p{
+    padding-bottom: 2rem;
+}
+.section-main .left-content h1{
+    font-size: 5rem;
+    text-transform: capitalize;
+}
+.section-main .left-content {
+    width:100%
+
+}
+.section-main .right-content {
+    width:100%;
+    position: relative;
+
+}
+.section-main .right-content .images-con {
+    position: relative;    
+}
+
+.circle {
+    position: absolute;
+    left:50%;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-40px);
+    opacity: 1;
+}
+.shopper {
+    position: absolute;
+    left:50%;
+    z-index: 5;
+    transform: translateX(-50%);
+    top: auto
+}
+.dots {
+    position: absolute;
+    right:0;
+    transform: translateY(-50%);
+    top: 50%;
+    display:flex;
+    flex-direction: column;
+
+}
+.dot-1, .dot-2, .dot-3 {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #e91b87;
+    margin: .6rem 0;
+    cursor: pointer;
+}
+.dot-1{
+    background-color: #e91b87;
+}
+.dot-2, .dot-3{
+    background-color: white;
+    border: 1px solid #e91b87;
+}
+.h-btn{
+    color:#e91b87;
+    margin-top: 2rem;
+    display:inline-block;
+}
